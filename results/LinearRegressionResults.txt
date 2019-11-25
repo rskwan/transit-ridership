@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  rides   R-squared:                       0.212
+Model:                            OLS   Adj. R-squared:                  0.207
+Method:                 Least Squares   F-statistic:                     37.45
+Date:                Mon, 25 Nov 2019   Prob (F-statistic):           9.01e-09
+Time:                        10:26:48   Log-Likelihood:                -2147.1
+No. Observations:                 141   AIC:                             4298.
+Df Residuals:                     139   BIC:                             4304.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                 -1.19e+05   2.43e+05     -0.489      0.625      -6e+05    3.62e+05
+monthly_housing_cost  1008.6200    164.819      6.120      0.000     682.744    1334.496
+==============================================================================
+Omnibus:                       59.347   Durbin-Watson:                   1.855
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              176.461
+Skew:                           1.650   Prob(JB):                     4.81e-39
+Kurtosis:                       7.376   Cond. No.                     4.26e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.26e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+P values: constant = 0.6253298587817115, housing = 9.014214357130046e-09
