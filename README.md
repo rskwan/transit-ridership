@@ -1,7 +1,8 @@
 # Transit Ridership
 
-Author: Ronald Kwan
-Code License: MIT
+**Author**: Ronald Kwan
+
+**Code License**: MIT
 
 ## Prerequisites
 
